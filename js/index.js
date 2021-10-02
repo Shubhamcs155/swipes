@@ -59,7 +59,7 @@ food = {x:6,y:7};
                         .one(touchStopEvent, function(event) {
                     $this.unbind(touchMoveEvent, moveHandler);
                     if (start && stop) {
-                        if (stop.time - start.time < 1000 &&
+                        if (stop.time - start.time < 500 &&
                                 Math.abs(start.coords[1] - stop.coords[1]) > 10 &&
                                 Math.abs(start.coords[0] - stop.coords[0]) < 45) {
                             start.origin
