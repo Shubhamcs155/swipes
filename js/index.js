@@ -294,23 +294,31 @@ function cdu()
 {
     direction.x = 0;
     direction.y = -1;
+     movesound.play();
+        musicsound.play();
 }
 
 function cdd() 
 {
     direction.x = 0;
     direction.y = 1;
+     movesound.play();
+        musicsound.play();
 }
 
 function cdr() 
 {
     direction.x = 1;
     direction.y = 0;
+     movesound.play();
+        musicsound.play();
 }
 
 function cdl() 
 {
     direction.x = -1;
     direction.y = 0;
+     movesound.play();
+        musicsound.play();
 }
 
