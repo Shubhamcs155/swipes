@@ -290,4 +290,27 @@ function startgame()
 
 
 }
+function cdu() 
+{
+    direction.x = 0;
+    direction.y = -1;
+}
+
+function cdd() 
+{
+    direction.x = 0;
+    direction.y = 1;
+}
+
+function cdr() 
+{
+    direction.x = 1;
+    direction.y = 0;
+}
+
+function cdl() 
+{
+    direction.x = -1;
+    direction.y = 0;
+}
 
